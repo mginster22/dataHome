@@ -5,13 +5,13 @@
 .button {
   padding: 16px;
   background-color: transparent;
-  border-color: aqua;
+  border-color: rgba(105, 241, 241, 0.849);
 
   font-weight: 700;
   cursor: pointer;
 }
 .button:hover {
-  background-color: aqua;
+  background-color: rgba(105, 241, 241, 0.849);
   color: white;
 }
 .button + .button {
@@ -19,29 +19,30 @@
 }
 .wrapper-div {
   width: 600px;
-  margin: 5px;
-  border: 3px solid aqua;
+  height: 250px;
+  margin-top: 20px;
+  border: 3px solid rgba(105, 241, 241, 0.849);
 }
-.wrapper {
+.wrapper-element {
+  height: 95%;
+  width: 98%;
+
   display: flex;
-  flex-direction: row-reverse;
+  gap: 5px;
+
   margin: 5px;
   border: 2px dotted grey;
 }
 
-.number {
+.wrapper-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 5px;
-  width: 30px;
-  height: 30vh;
+  width: 50px;
   border: 1px solid;
-  background-color: aqua;
+  background-color: rgba(105, 241, 241, 0.849);
+
   font-weight: 700;
   font-size: 2rem;
   color: darkgray;
-}
-.number + .number {
-  margin-left: 3px;
 }

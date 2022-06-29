@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/index.js" defer></script>
 </head>
+
 <body>
   <div class="container">
     <h1>flex-direction</h1>
     <div class="buttons">
-      <button class="button">ROW</button>
-      <button class="button">ROW-REWERSE</button>
-      <button class="button">COLUMN</button>
-      <button class="button">COLUMN-REVERSE</button>
+      <button data-style="row" class="button">ROW</button>
+      <button data-style="row-reverse" class="button">ROW-REWERSE</button>
+      <button data-style="column" class="button">COLUMN</button>
+      <button data-style="column-reverse" class="button">COLUMN-REVERSE</button>
     </div>
     <div class="wrapper-div">
-      <div class="wrapper">
-        <div class="number">1</div>
-        <div class="number">2</div>
-        <div class="number">3</div>
-        <div class="number">4</div>
+      <div class="wrapper-element">
+        <div class="wrapper-item">1</div>
+        <div class="wrapper-item">2</div>
+        <div class="wrapper-item">3</div>
+        <div class="wrapper-item">4</div>
       </div>
     </div>
   </div>
 
 </body>
+
 </html>
